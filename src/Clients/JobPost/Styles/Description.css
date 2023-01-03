@@ -1,0 +1,141 @@
+.description {
+    width: 1020px;
+    height: 100%;
+    background-color: #ffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    display: block;
+    margin-left: 250px;
+    margin-top: 130px;
+}
+.title>span {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+
+    text-align: left;
+}
+
+.title {
+    border : 1px solid #95DF00;
+}
+
+.skills {
+    display:block;
+    border: 1px solid #95DF00;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+.skills>span {
+    display: block;
+
+    margin-top: 10px;
+    margin-left: 28px;
+    margin-bottom: 10px;
+
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.scope-jobpost {
+    display: block;
+    border: 1px solid #95DF00;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.scope-jobpost>span {
+    display: block;
+
+    margin-top: 10px;
+    margin-left: 28px;
+    margin-bottom: 10px;
+
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.level-experience {
+    display: block;
+    border: 1px solid #95DF00;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.level-experience>span {
+    display: block;
+
+    margin-top: 10px;
+    margin-left: 28px;
+    margin-bottom: 10px;
+
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.budget {
+    display: block;
+
+    border: 1px solid #95DF00;
+    border-radius: 6px;
+    margin-top: 10px;
+
+}
+
+.budget>span {
+    display: block;
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.button-options {
+    display: block;
+    float: right;
+}
+
+.button-options a {
+    text-decoration: none;
+    color: black;
+}
+
+.button-options>.back {
+   display: inline-block;
+   width: 80px;
+   height: 30px;
+   
+   margin-top: 20px;
+   margin-right: 15px;
+   padding-top: 5px;
+
+   border: 1px solid #95DF00;
+   border-radius: 18px;
+   text-align: center;
+}
+
+.button-options>.review-job {
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+
+    text-align: center;
+    padding-top: 5px;
+    margin-right: 20px;
+
+    background-color: #95DF00;
+    border-radius: 18px;
+    
+}

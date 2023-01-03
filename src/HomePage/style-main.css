@@ -1,0 +1,9 @@
+.findwork {
+    color: var(--japanese-laurel);
+    font-family: var(--font-family-inika);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    letter-spacing: 0;
+    min-height: 47px;
+    min-width: 162px;
+}

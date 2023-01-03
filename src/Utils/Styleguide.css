@@ -1,0 +1,318 @@
+
+/* Variables */
+:root {
+    --black: rgba(0, 0, 0, 1);
+    --japanese-laurel: rgba(2, 124, 0, 1);
+    --san-felix: rgba(4, 94, 7, 1);
+    --sherpa-blue: rgba(8, 70, 83, 1);
+    --blue-dianne: rgba(29, 67, 84, 1);
+    --dark-blue: rgba(34, 18, 212, 1);
+    --japanese-laurel-2: rgba(34, 103, 2, 1);
+    --green-pea: rgba(35, 93, 51, 1);
+    --japanese-laurel-3: rgba(35, 103, 2, 1);
+    --apple: rgba(76, 175, 80, 1);
+    --jet-stream: rgba(179, 211, 199, 1);
+    --mist-gray: rgba(196, 196, 196, 1);
+    --timberwolf: rgba(218, 215, 215, 1);
+    --snowy-mint: rgba(218, 255, 226, 1);
+    --bon-jour: rgba(225, 225, 225, 1);
+    --mercury: rgba(231, 231, 231, 1);
+    --gallery: rgba(239, 239, 239, 1);
+    --concrete: rgba(241, 242, 244, 1);
+    --white: rgba(255, 255, 255, 1);
+    --font-size-xxs: 16px;
+    --font-size-xs: 20px;
+    --font-size-s: 22px;
+    --font-size-m: 24px;
+    --font-size-1: 30px;
+    --font-size-xl: 32px;
+    --font-size-xxl: 36px;
+    --font-family-arial-bold: "Arial-Bold";
+    --font-family-arial-regular: "Arial-Regular";
+    --font-family-inika: "Inika";
+    --font-family-inter: "Inter";
+}
+
+/* Classes */
+.inika-normal-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-inika);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter-bold-san-felix-16px {
+    color: var(--san-felix);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxs);
+    font-weight: 700;
+    font-style: italic;
+}
+
+.inika-bold-black-2px {
+    color: var(--black);
+    font-family: var(--font-family-inika);
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    font-style: normal; }
+
+.border-1px-black {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--black);
+}
+
+.inter-bold-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal; }
+
+.inika-normal-white-22px {
+    color: var(--white);
+    font-family: var(--font-family-inika);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal; }
+
+.arial-regular-normal-black-16px {
+    color: var(--black);
+    font-family: var(--font-family-arial-regular);
+    font-size: var(--font-size-xxs);
+    font-weight: 400;
+    font-style: normal; }
+
+.inika-bold-japanese-laurel-36px {
+    color: var(--japanese-laurel);
+    font-family: var(--font-family-inika);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    font-style: normal;}
+
+.inter-bold-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    font-style: normal; }
+
+.inter-bold-black-14px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;}
+
+.arial-regular-normal-black-20px {
+     color: var(--black);
+     font-family: var(--font-family-arial-regular);
+     font-size: var(--font-size-xs);
+     font-weight: 400;
+     font-style: normal;}
+.inika-normal-white-40px {
+    color: var(--white);
+    font-family: var(--font-family-inika);
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal; }
+.inter-bold-black-32px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    font-style: normal;}
+
+.inika-bold-japanese-laurel-20px {
+    color: var(--japanese-laurel);
+    font-family: var(--font-family-inika);
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    font-style: normal;}
+
+.inika-bold-black-36px {
+    color: var(--black);
+    font-family: var(--font-family-inika);
+    font-size: var(--font-size-xxl);
+    font-weight: 700; font-style: normal;}
+
+.inter-normal-white-24px {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m) ;
+    font-weight: 400;
+    font-style: normal;}
+
+.inika-normal-black-22px {
+    color: var(--black);
+    font-family: var(--font-family-inika);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;}
+
+.inika-bold-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-inika);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;}
+
+.border-3px-japanese-laurel-2 {
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--japanese-laurel-2);}
+
+.inter-bold-japanese-laurel-32px {
+    color: var(--japanese-laurel-2);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    font-style: normal;}
+
+.inika-normal-black-40px {
+    color: var(--black);
+    font-family: var(--font-family-inika);
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;}
+
+.inika-normal-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-inika);
+    font-size: var(--font-size-xs);
+    font-weight: 400;
+    font-style: normal;}
+
+.inika-bold-white-40px {
+    color: var( --white);
+    font-family: var(--font-family-inika);
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;}
+
+.inter-normal-black-48px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: 48px;
+    font-weight: 400;
+    font-style: normal;}
+
+.inika-normal-black-30px {
+    color: var(--black);
+    font-family: var(--font-family-inika);
+    font-size: var(--font-size-1);
+    font-weight: 400;
+    font-style: normal;}
+
+.inter-bold-japanese-laurel-24px-2 {
+    color: var(--japanese-laurel-3);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;}
+
+.inika-bold-japanese-laurel-32px-2 {
+    color: var(--japanese-laurel-3);
+    font-family: var(--font-family-inika);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    font-style: normal;}
+
+.border-2px-japanese-laurel-2 {
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--japanese-laurel-2);}
+
+.inika-bold-japanese-laurel-24px {
+    color: var(--japanese-laurel-2);
+    font-family: var(--font-family-inika);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;}
+
+.inter-normal-black-24px-2 {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 400; font-style: italic;}
+
+.inika-bold-japanese-laurel-32px {
+    color: var(--japanese-laurel-2);
+    font-family: var(--font-family-inika);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    font-style: normal;}
+
+.inika-bold-black-32px {
+    color: var(--black);
+    font-family: var(--font-family-inika);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    font-style: normal;}
+
+.inika-bold-japanese-laurel-24px-2 {
+    color: var(--japanese-laurel);
+    font-family: var(--font-family-inika);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;}
+
+.inter-bold-japanese-laurel-24px {
+    color: var(--japanese-laurel-2);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;}
+
+.inter-bold-white-20px {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    font-style: normal;}
+
+.arial-bold-white-20px {
+    color: var(--white);
+    font-family: var(--font-family-arial-bold);
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    font-style: normal;}
+.border-1px-japanese-laurel {
+    border-width:1px;
+    border-style: solid;
+    border-color: var(--japanese-laurel);}
+
+.inika-bold-white-20px {
+    color: var(--white);
+    font-family: var(--font-family-inika);
+    font-size: var(--font-size-xs);
+    font-weight: 700; font-style: normal;}
+
+.inter-normal-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;}
+
+.inter-light-black-32px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xl);
+    font-weight: 300; font-style: normal;}
+
+.inika-normal-black-16px {
+    color: var(--black);
+    font-family: var(--font-family-inika);
+    font-size: var(--font-size-xxs);
+    font-weight: 400;
+    font-style: normal;}
+
+.inter-bold-green-pea-24px {
+    color: var(--green-pea);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;}
+

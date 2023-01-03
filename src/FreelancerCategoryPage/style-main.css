@@ -1,0 +1,36 @@
+.site-card-wrapper {
+  padding: 30px;
+  background: #ececec;
+}
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.freelancer {
+  letter-spacing: 0;
+  min-height: 35px;
+  width: 160px;
+  position: absolute;
+  padding-right: 900px;
+}
+.demo:hover{
+  background-color: #EEEEEE;
+  color: #00AA00;
+}
+.login {
+  min-height: 35px;
+  width: 160px;
+  position: absolute;
+  color: green;
+}
+
+.signUp {
+  min-height: 35px;
+  width: 160px;
+  position: absolute;
+}
+
+.header {
+  border-bottom: 1px black;
+}

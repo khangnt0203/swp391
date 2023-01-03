@@ -1,0 +1,50 @@
+.sidebar {
+    display: block;
+    width: 250px;
+    height: 320px;
+    background-color: azure;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-bottom: 100px;
+    text-align: left;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+.billing-part {
+    display: block;
+    padding-top: 10px;
+    margin-left: 35px;
+}
+
+.billing-part>ul {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.billing-part>a {
+    margin-left: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.user-part {
+    display: block;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.user-part>ul {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.user-part>a {
+    margin-left: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}

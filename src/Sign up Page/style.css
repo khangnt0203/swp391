@@ -1,0 +1,22 @@
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.topnav .info a{
+    float: right;
+    font-size: 17px;
+    color: white;
+    margin-left: 25px;
+    
+}
+
+.topnav .info a:hover{
+    color: #228B22;
+}

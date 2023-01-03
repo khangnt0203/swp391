@@ -1,0 +1,75 @@
+.contactinfo {
+    display: block;
+    margin-left: 498px;
+    margin-top: -440px;
+    text-align: left;
+}
+.contactinfo ul {
+    font-size: 28px;
+}
+
+.account {
+    width: 773px;
+    height: 202px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+}
+
+.account .headerAccount {
+    display: flex;
+    flex: 50%;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.headerAccount>p {
+    display: flex;
+    flex: 50%;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.bodyAccount {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.account a {
+    color: #3C8224;
+    text-decoration: none;
+    float: right;
+    margin-top: 33px;
+    margin-right: 12px;
+}
+.account a:hover {
+    text-decoration: underline;
+}
+.location {
+    width: 773px;
+    height: 422px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    margin-bottom: 150px;
+}
+.location .headerLocation {
+    display: flex;
+    flex: 50%;
+    margin-left: 30px;
+    font-size: 30px;
+}
+.headerLocation p {
+    display: flex;
+    flex: 50%;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.bodyLocation {
+    
+    font-size: 20px;
+    font-weight: bold;
+}
+.bodyLocation p {
+    margin-left: 40px;
+}

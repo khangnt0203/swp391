@@ -1,0 +1,79 @@
+.profileSetting {
+    margin-left: 498px;
+    margin-top: -450px;
+    margin-bottom: 200px;
+    
+}
+.myprofile {
+    width: 773px;
+    height: 315px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+}
+.myprofile .headMyprofile {
+    display: flex;
+    flex: 50%;
+    margin-left: 30px;
+}
+.headMyprofile p {
+    display: flex;
+    flex: 50%;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.headMyprofile a {
+    text-decoration: none;
+    margin-right: 30px;
+    margin-top: 30px;
+    color: #3C8224;
+}
+.headMyprofile a:hover {
+    text-decoration: underline;
+}
+
+.bodyMyprofile_visibility>ul {
+    text-align: left;
+}
+
+.bodyMyprofile_project>ul {
+    text-align: left;
+}
+
+.experienceLevel {
+    margin-top: 25px;
+    width: 773px;
+    height: 280px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+}
+
+.experienceLevel .headExperience p {
+    display: flex;
+    font-size: 30px;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.bodyExperience {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.bodyExperience ul {
+    text-align: center;
+}
+.bodyExperience button {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+.bodyExperience button:hover {
+    background-color:#F1F2F4;
+}
+.bodyExperience button:active {
+    border: 2px solid black;
+}
+.bodyExperience button:visited {
+    border: 2px solid #3C8224;
+}
